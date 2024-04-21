@@ -1,0 +1,34 @@
+.carousel-container {
+    position: relative;
+    max-width: 800px;
+    /* adjust as needed */
+    margin: 0 auto;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.product-item {
+    position: relative;
+    flex: 0 0 auto;
+    width: 100%;
+    /* adjust as needed */
+    height: 900px;
+    /* adjust as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.product-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+.product-info h3,
+.product-info p {
+    margin: 0;
+}
